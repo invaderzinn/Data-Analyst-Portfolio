@@ -978,6 +978,17 @@ section .container {
   padding: 15px 0 0 0;
 }
 
+.portfolio-details-slider {
+  width: 90%; /* Adjust this value to control the width of the slider */
+  max-width: 800px; /* Set a maximum width to prevent excessive enlargement */
+  margin: 0 auto;
+}
+
+.portfolio-details-slider .swiper-slide img {
+  max-width: 100%; /* Ensure images fit within their containers */
+  height: auto; /* Let the images maintain their aspect ratio */
+}
+
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;

@@ -224,8 +224,8 @@
    */
   const portfolioDetailsLightbox = GLightbox({
     selector: '.portfolio-details-lightbox',
-    width: '95%',
-    height: '95vh'
+    width: '90%',
+    height: '90vh'
   })
 
   /**
