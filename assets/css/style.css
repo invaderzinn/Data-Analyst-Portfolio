@@ -93,10 +93,10 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#header h4 span {
+#header h2 span {
   color: #fff;
   border-bottom: 2px solid #E598D8;
-  padding-bottom: 6px;
+  padding-bottom: 2px;
 }
 
 #header img {
